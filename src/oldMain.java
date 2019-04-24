@@ -5,7 +5,7 @@ import java.sql.Statement;
 import java.util.Scanner;
 import java.sql.*;  
 
-public class Main{
+public class oldMain{
 	public static void main(String args[]){  
 		try {  
 			//Class.forName("com.mysql.jdbc.Driver");
@@ -51,7 +51,7 @@ public class Main{
 				int entered_acc_no = sc.nextInt();
 				sc.nextLine();
 				
-				double bal = newAccount.checkBalance(entered_acc_no);
+				//double bal = newAccount.checkBalance(entered_acc_no);
 				break;
 			}
 			case 3: { //deposit
